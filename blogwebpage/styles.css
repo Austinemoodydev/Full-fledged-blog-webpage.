@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+  color:white;
+}
+.search-form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.comment {
+    background: #f9f9f9;
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 3px solid #333;
+    border-radius: 5px;
+}
+
+.comment-date {
+    font-size: 0.8em;
+    color: #666;
+}
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background: #555;
+    pointer-events: none;
+}
+categories {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.categories a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background: #333;
+    color: #fff;
+}
+analytics {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.analytics h2 {
+    margin-bottom: 10px;
+}
+
+.analytics p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+.analytics {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.analytics h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.analytics p {
+    font-size: 1.2em;
+    margin: 5px 0;
+  color: #555;
+}
